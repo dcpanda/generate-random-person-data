@@ -41,7 +41,21 @@ go run generate_data.go
 There are two sections that will require change to add or modify data columns. The `header` slice has the row reader and the `row` slice has the data rows.
 Visit this pkg URL [go-randomdata](https://pkg.go.dev/github.com/grandper/go-randomdata) package for more functions.
 
+## Running the Tests
+1. Run all the tests the current package and subpackages.
+```bash
+go test
+```
+2. Run the test and produce more details of the rest results.
+```bash
+go test -v 
+```
+3. To Run the test coverage.
+```bash
+go test -cover 
+```
+
 ## TODO
 - [x] Refactor Code and make `generate_data.go` more modular.
-- [ ] Add Unit Testing 
+- [x] Add Unit Testing 
 - [ ] Checkout the Package github.com/spf13/pflag
