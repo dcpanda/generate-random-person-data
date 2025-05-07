@@ -40,3 +40,7 @@ go run generate_data.go
 ## Adding new columns
 There are two sections that will require change to add or modify data columns. The `header` slice has the row reader and the `row` slice has the data rows.
 Visit this pkg URL [go-randomdata](https://pkg.go.dev/github.com/grandper/go-randomdata) package for more functions.
+
+## TODO
+- [ ] Refactor Code and make `generate_data.go` more modular.
+- [ ] Add Unit Testing 
