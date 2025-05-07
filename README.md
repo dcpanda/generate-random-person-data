@@ -44,3 +44,4 @@ Visit this pkg URL [go-randomdata](https://pkg.go.dev/github.com/grandper/go-ran
 ## TODO
 - [x] Refactor Code and make `generate_data.go` more modular.
 - [ ] Add Unit Testing 
+- [ ] Checkout the Package github.com/spf13/pflag
