@@ -42,5 +42,5 @@ There are two sections that will require change to add or modify data columns. T
 Visit this pkg URL [go-randomdata](https://pkg.go.dev/github.com/grandper/go-randomdata) package for more functions.
 
 ## TODO
-- [ ] Refactor Code and make `generate_data.go` more modular.
+- [x] Refactor Code and make `generate_data.go` more modular.
 - [ ] Add Unit Testing 
