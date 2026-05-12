@@ -4,8 +4,9 @@ import (
 	"encoding/csv"
 	"flag"
 	"fmt"
-	"github.com/pallinder/go-randomdata"
 	"os"
+
+	"github.com/pallinder/go-randomdata"
 )
 
 // parseFlags parses command-line flags and returns the number of rows to generate and the output filename
@@ -78,7 +79,7 @@ func generateRandomRow() []string {
 
 // writeRows generates and writes the specified number of random data rows to the CSV file
 func writeRows(writer *csv.Writer, numRows int) {
-	for i := 0; i < numRows; i++ {
+	for i := range numRows {
 		row := generateRandomRow()
 
 		if err := writer.Write(row); err != nil {
